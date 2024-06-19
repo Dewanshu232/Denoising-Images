@@ -1,4 +1,5 @@
-![image](https://github.com/Dewanshu232/Denoising-Images/assets/122469929/a9ba52b6-af33-4100-a843-c752d7581d43)
+![image](https://github.com/Dewanshu232/Denoising-Images/assets/122469929/6ae3e02c-fef6-43a0-88aa-53a95d36c7af)
+
 
 
 # Zero-DCE: Low-Light Image Enhancement
