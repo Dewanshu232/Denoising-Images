@@ -51,6 +51,26 @@ The project is based on the paper: "Zero-Reference Deep Curve Estimation for Low
 
 
 ## Project Details
+##Zero DCE (Zero-Reference Deep Curve Estimation) –
+This method trains a lightweight deep network, DCE-Net, to estimate pixel-wise and high-order curves for dynamic range adjustment of a given image. The curve estimation is specially designed, considering pixel value range, monotonicity, and differentiability. It does not require any paired or unpaired data during training. This is achieved through a set of carefully formulated non-reference loss functions, which implicitly measure the enhancement quality and drive the learning of the network. This method is efficient as image enhancement can be achieved by an intuitive and simple nonlinear curve mapping. A Deep Curve Estimation Network (DCE-Net) is devised to estimate a set of best-fitting Light-Enhancement curves (LE-curves) given an input image. The framework then maps all pixels of the input’s RGB channels by applying the curves iteratively for obtaining the final enhanced image. The input to the DCE-Net is a low-light image while the outputs are a set of pixel-wise curve parameter maps for corresponding higher-order curves. It is a plain CNN of seven convolutional layers with symmetrical concatenation. Each layer consists of 32 convolutional kernels of size 3×3 and stride 1 followed by the ReLU activation function.
+
+![image](https://github.com/Dewanshu232/Denoising-Images/assets/122469929/315263ca-26d8-480c-8405-4c920768eda5)
+![image](https://github.com/Dewanshu232/Denoising-Images/assets/122469929/233486bc-30e8-4cc3-b233-c0a61c8734c2)
+
+
+##Building of Model-
+![image](https://github.com/Dewanshu232/Denoising-Images/assets/122469929/922a0f66-e104-4cd5-bee4-0146c6b48f59)
+
+
+##Testing data-
+
+
+##Training and Testing of data-
+
+![image](https://github.com/Dewanshu232/Denoising-Images/assets/122469929/43318965-cc0c-4a28-8c03-72d9062fd7a3)
+
+##PSNR value-
+![image](https://github.com/Dewanshu232/Denoising-Images/assets/122469929/356b420a-1f1d-46f1-9db8-1a55b7d1c285)
 
 ### Training Code
 The training code for the Zero-DCE model is executed with the specified hyperparameters and data preprocessing steps.
