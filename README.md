@@ -1,4 +1,4 @@
-![Uploading image.png…]()
+![image](https://github.com/Dewanshu232/Denoising-Images/assets/122469929/a9ba52b6-af33-4100-a843-c752d7581d43)
 
 
 # Zero-DCE: Low-Light Image Enhancement
@@ -20,6 +20,8 @@ The Peak Signal-to-Noise Ratio (PSNR) value achieved on the training dataset is 
 
 ### Paper Implemented
 The project is based on the paper: "Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement" by Chien-Hsiang Huang, Chia-Yu Chen, Chu-Song Chen, and Chen-Chi Chang. The paper can be accessed [here](https://arxiv.org/abs/2001.06826).
+![Uploading image.png…]()
+
 
 ## Project Details
 
