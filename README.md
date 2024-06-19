@@ -24,7 +24,7 @@ The term Peak Signal-to-Noise Ratio (PSNR) is an expression for the ratio betwee
 ![PSNR Equation](https://github.com/Dewanshu232/Denoising-Images/assets/122469929/0fb99d9f-7b3d-42f5-aac7-4e991fcd56f6)
 ### PSNR Value Achieved
 The Peak Signal-to-Noise Ratio (PSNR) value achieved on the training dataset is computed during evaluation and reported below.
-
+28.7
 ![PSNR Value](https://github.com/Dewanshu232/Denoising-Images/assets/122469929/7bffcf84-d7ce-4af5-acf3-4ef6031a6be2)
 
 
