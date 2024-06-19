@@ -24,6 +24,8 @@ Peak Signal to Noise Ratio (PSNR) - The term peak signal-to-noise ratio (PSNR) i
 
 ### PSNR Value Achieved
 The Peak Signal-to-Noise Ratio (PSNR) value achieved on the training dataset is computed during evaluation and reported below.
+![image](https://github.com/Dewanshu232/Denoising-Images/assets/122469929/7bffcf84-d7ce-4af5-acf3-4ef6031a6be2)
+
 
 
 ### Paper Implemented
