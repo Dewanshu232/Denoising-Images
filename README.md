@@ -16,15 +16,31 @@ In this project, we implemented the Zero-DCE (Zero-Reference Deep Curve Estimati
 - **Learning Rate:** 1e-4
 - **Epochs:** 100
 - 
-###Performance Metrics
-Peak Signal to Noise Ratio (PSNR) - The term peak signal-to-noise ratio (PSNR) is an expression for the ratio between the maximum possible value (power) of a signal and the power of distorting noise that affects the quality of its representation. Because many signals have a very wide dynamic range, (ratio between the largest and smallest possible values of a changeable quantity) the PSNR is usually expressed in terms of the logarithmic decibel scale. The higher the PSNR, the better the quality of the compressed image.
-![image](https://github.com/Dewanshu232/Denoising-Images/assets/122469929/0fb99d9f-7b3d-42f5-aac7-4e991fcd56f6)
+### Performance Metrics for Traning data
 
+#### Peak Signal to Noise Ratio (PSNR)
+The term Peak Signal-to-Noise Ratio (PSNR) is an expression for the ratio between the maximum possible value (power) of a signal and the power of distorting noise that affects the quality of its representation. Because many signals have a very wide dynamic range (ratio between the largest and smallest possible values of a changeable quantity), the PSNR is usually expressed in terms of the logarithmic decibel scale. The higher the PSNR, the better the quality of the compressed image.
 
-
+![PSNR Equation](https://github.com/Dewanshu232/Denoising-Images/assets/122469929/0fb99d9f-7b3d-42f5-aac7-4e991fcd56f6)
 ### PSNR Value Achieved
 The Peak Signal-to-Noise Ratio (PSNR) value achieved on the training dataset is computed during evaluation and reported below.
-![image](https://github.com/Dewanshu232/Denoising-Images/assets/122469929/7bffcf84-d7ce-4af5-acf3-4ef6031a6be2)
+
+![PSNR Value](https://github.com/Dewanshu232/Denoising-Images/assets/122469929/7bffcf84-d7ce-4af5-acf3-4ef6031a6be2)
+
+
+#### Mean Squared Error (MSE)
+The Mean Squared Error (MSE) is a measure of the average squared difference between the estimated values and the actual value. It provides an idea of how well the model is performing by penalizing larger errors more than smaller ones. Lower values of MSE indicate better performance.
+
+The formula for MSE is:
+\[ \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 \]
+
+#### Mean Absolute Error (MAE)
+The Mean Absolute Error (MAE) measures the average magnitude of the errors in a set of predictions, without considering their direction. It’s the average over the test sample of the absolute differences between prediction and actual observation where all individual differences have equal weight.
+
+The formula for MAE is:
+\[ \text{MAE} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i| \]
+![image](https://github.com/Dewanshu232/Denoising-Images/assets/122469929/4ef4f77a-c356-471e-9081-6b759ef76fc2)
+
 
 
 
