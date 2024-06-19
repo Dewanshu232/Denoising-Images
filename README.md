@@ -15,6 +15,12 @@ In this project, we implemented the Zero-DCE (Zero-Reference Deep Curve Estimati
 - **Max Training Images:** 400
 - **Learning Rate:** 1e-4
 - **Epochs:** 100
+- 
+###Performance Metrics
+Peak Signal to Noise Ratio (PSNR) - The term peak signal-to-noise ratio (PSNR) is an expression for the ratio between the maximum possible value (power) of a signal and the power of distorting noise that affects the quality of its representation. Because many signals have a very wide dynamic range, (ratio between the largest and smallest possible values of a changeable quantity) the PSNR is usually expressed in terms of the logarithmic decibel scale. The higher the PSNR, the better the quality of the compressed image.
+![image](https://github.com/Dewanshu232/Denoising-Images/assets/122469929/0fb99d9f-7b3d-42f5-aac7-4e991fcd56f6)
+
+
 
 ### PSNR Value Achieved
 The Peak Signal-to-Noise Ratio (PSNR) value achieved on the training dataset is computed during evaluation and reported below.
