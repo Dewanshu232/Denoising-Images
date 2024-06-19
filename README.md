@@ -101,8 +101,4 @@ https://www.youtube.com/watch?v=ggJhpgXK6E0
 https://github.com/sunilbelde/Imagedenoising-dncnn-ridnet-keras/tree/main/code
 https://medium.com/analytics-vidhya/image-denoising-using-deep-learning-dc2b19a3fd54
 
-###REFERENCES
-https://medium.com/analytics-vidhya/noise-removal-in-images-using-deep-learning-models-3972544372d2
-https://www.youtube.com/watch?v=ggJhpgXK6E0
-https://github.com/sunilbelde/Imagedenoising-dncnn-ridnet-keras/tree/main/code
-https://medium.com/analytics-vidhya/image-denoising-using-deep-learning-dc2b19a3fd54
+
